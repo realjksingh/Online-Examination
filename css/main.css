@@ -1,0 +1,60 @@
+body{ font: 14px/normal Open Sans;}
+*{ margin:0; box-sizing:border-box;}
+.container{ width: 1170px; padding: 0 15px; margin: auto}
+.row{ margin-left: -15px; margin-right: -15px }
+.clear{ clear: both}
+.row:after{ content: ""; clear: both; display: block }
+.col-1{ width: 70px; padding: 0 15px; float: left}
+.col-2{ width: 170px; padding: 0 15px; float: left}
+.col-3{ width: 270px; padding: 0 15px; float: left}
+.col-4{ width: 370px; padding: 0 15px; float: left}
+.col-5{ width: 470px; padding: 0 15px; float: left}
+.col-6{ width: 570px; padding: 0 15px; float: left}
+.col-7{ width: 670px; padding: 0 15px; float: left}
+.col-8{ width: 770px; padding: 0 15px; float: left}
+.col-9{ width: 870px; padding: 0 15px; float: left}
+.col-10{ width: 970px; padding: 0 15px; float: left}
+.col-11{ width: 1070px; padding: 0 15px; float: left}
+.col-12{ width: 1170px; padding: 0 15px; float: left}
+.wrap-1,.wrap-2,.wrap-3{ color: #fff;background:#02797d}
+.wrap-1 .container .row{ padding:10px 0 0 0; }
+.wrap-1 .container .row p{ font-size: 16px;text-align: center }
+.wrap-2 .container{ color: #fff; }
+.wrap-2 .container .row { padding-top:40px; padding-bottom:27px; }
+.wrap-2 .container .row .col-6 .logo h1{ line-height:33px; font-size:40px; }
+.wrap-2 .container .row .col-6 .logo p{ font-size:15px; }
+.wrap-2 .container .row .col-6 .log-in pre{ display:inline; font-size:25px; padding:5px; }
+.wrap-2 .container .row .col-6 .log-in a{text-decoration:none; color:#fff; display:inline;line-height:33px; font-size:40px;}
+.fa-sign-in{ font-size:25px; }
+.wrap-3 .container{ color:#fff; }
+.wrap-3 .nav ul{ list-style:none; text-align:center; position:relative; }
+.wrap-3 .nav ul li{ display:inline-block; margin:15px 10px; font-size:15px; }
+.wrap-3 .nav ul li a{ text-decoration: none; color:white; }
+.nav .col-12{ display:none; }
+.wrap-3 .nav ul .col-12 div{ float:left; padding-right:10px; }
+.fa-chevron-down{ font-size:10px; padding:5px; }
+.wrap-4 .container .row .col-4{float:none;margin:auto;}
+.wrap-4 .container .row .col-4 div{margin:50px;}
+.wrap-4 .container .row .col-4 div h2{ padding-top:10px;}
+.wrap-4 .container .row .col-4 button{padding:10px;margin-top:20px;}
+button,#name,#username,#email,#opassword,#npassword,#cpassword,label{display:block;margin-top:10px;}
+label{line-height: 30px;font-size:20px;}
+#name,#username,#email,#opassword,#npassword,#cpassword{width:300px;height: 30px}
+button{margin-bottom:10px; height:30px;}
+#display,#nodisplay{display: inline;}
+.change{display: inline;margin:0px 20px 0px 0px;line-height: 50px;font-size: 25px}
+.changeoption{display:none;}
+.wrap-5 .container .row ul{text-align:center;margin: 10px 0px 0px 0px;}
+.wrap-5 .container .row ul li{list-style: none;display: inline;padding:10px;margin-right:20px;line-height: 40px;font-size: 20px;border-bottom:1px solid black; cursor:pointer;}
+.wrap-5 .container .row ul li a{color:black;text-decoration: none}
+.wrap-5 .container .row div .hide{display:none;}
+button{margin-top:10px;}
+.active_li{background:grey;}
+.hide_li{background:white;}
+.hide{display:none;}
+.match{margin-top:20px;}
+.showtime{padding:margin:100px;}
+.showtime1 h3{padding:10px 0px 0px 0px;}
+.showtime1 p{padding:10px 0px 10px 0px;}
+.correct{color:green;}
+.incorrect{color:red;}
